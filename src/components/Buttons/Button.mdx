@@ -1,12 +1,14 @@
-import { Canvas, Meta } from "@storybook/blocks";
-import * as ButtonExample from "./Button.stories";
+import { Canvas, Meta, Controls } from "@storybook/blocks";
+import * as ButtonExampleStories from "./Button.stories";
 
-<Meta of={ButtonExample} />
+<Meta of={ButtonExampleStories} />
 
 # Button
 
 Aqui vai a descrição do botão e você pode escrever o que achar melhor.
 
+<Controls />
+
 ## Button Example
 
-<Canvas of={ButtonExample.ButtonExample} />
+<Canvas of={ButtonExampleStories.ButtonExample} />

@@ -11,7 +11,7 @@ type Story = StoryObj<typeof Button>;
 
 export const ButtonExample: Story = {
   args: {
-    label: "ButtonExample",
+    disabled: false,
     children: "Texto do Botão",
   },
 };
