@@ -19,6 +19,9 @@ const StyledButton = styled.button<ButtonProps>`
 `;
 
 interface ButtonProps {
+  /**
+   * Essa prop é baseada nas opções de cores que temos no nosso tema, confia a página  do tema para mais informações.
+   */
   variant?: "primary" | "accent";
   disabled?: boolean;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
